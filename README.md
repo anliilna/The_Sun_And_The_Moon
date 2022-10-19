@@ -1,3 +1,3 @@
 # The_Sun_And_The_Moon
-jeu de plateforme style: https://play.google.com/store/apps/details?id=com.adventureislands.heartstar&amp;gl=FR
-https://stackoverflow.com/questions/61180585/pygame-character-idle-animation
+Ce sera un jeu de plateforme fortement inspiré de Heart Star où deux personnages Sun et Moon devront s'entre aider pour résoudre des niveaux (si j'arrive à en faire)  
+pour ce projet je prévois de créer l'interface du jeu (personnages, fond, décor, animations)
