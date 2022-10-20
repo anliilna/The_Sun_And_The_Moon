@@ -9,7 +9,7 @@ pygame.display.set_caption("When The Sun Loves The Moon")
 fond = pygame.image.load('game_bg-1.png')
 moon = moon_script.Moon()
 temps = pygame.time.Clock()
-time = 15
+time = 60
 pygame.mixer.music.load("When The Sun Loves The Moon.mp3")
 pygame.mixer.music.play(-1)
 
@@ -37,11 +37,13 @@ while running:
                 # v on déplace le vaisseau de 1 pixel sur la gauche
                 moon.anim = moon.walk_left
                 moon.sens = "gauche"
+                moon.senss = "gauche"
             # v si la touche est la fleche droite
             if event.key == pygame.K_RIGHT:
                 # v on déplace le vaisseau de 1 pixel sur la gauche
                 moon.anim = moon.walk_right
                 moon.sens = "droite"
+                moon.senss = "droite"
             if event.key == pygame.K_SPACE:
                 moon.saut = True
             if event.key == pygame.K_ESCAPE:
@@ -50,10 +52,19 @@ while running:
         else:
             if moon.sens == "gauche":
                 moon.anim = moon.idle
+                moon.senss = "gauche"
             if moon.sens == "droite":
                 moon.anim = moon.idle_right
+                moon.senss = "droite"
             moon.sens = '0'
             time = 5
+    if moon.tombe:
+        if moon.senss == "gauche":
+            frame = moon.fall[0]
+        if moon.senss == "droite":
+            frame = moon.fall[1]
+        time = 15
+        moon.tombe = False
 
     moon.gravite()
     moon.sauter()
