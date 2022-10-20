@@ -10,4 +10,4 @@ j'ai ajouté de la gravité au jeu donc si les personnages ne sont pas sur une s
 20/10/2022:  
 j'ai ajouté une musique de fond  
 j'ai ajouté le saut à Moon  
-j'ai réussi à faire changer l'image de Moon quand elle tombe  
+j'ai réussi à faire changer l'image de Moon quand elle tombe (mais il y a un problème de vitesse)  
