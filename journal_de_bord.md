@@ -11,3 +11,6 @@ j'ai ajouté de la gravité au jeu donc si les personnages ne sont pas sur une s
 j'ai ajouté une musique de fond  
 j'ai ajouté le saut à Moon  
 j'ai réussi à faire changer l'image de Moon quand elle tombe (mais il y a un problème de vitesse)  
+
+21/10/2022:  
+j'ai dessiné les mêmes images que Moon pour Sun et l'ai ajouté au programme (toujours avec le problème de vitesse)  
