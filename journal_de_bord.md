@@ -15,6 +15,13 @@ j'ai réussi à faire changer l'image de Moon quand elle tombe (mais il y a un p
 21/10/2022:  
 j'ai dessiné les mêmes images que Moon pour Sun et l'ai ajouté au programme (toujours avec le problème de vitesse)  
 
-22/10/2022:
+22/10/2022:  
 problème de vitesse réglé :D  
 mais si je fais marcher les deux personnage et que j'en fait arrêter un, les deux personnages s'arrêtent de marcher D:
+
+23/10/2022:  
+j'ai recommencé du début T~T  
+
+24/10/2022:  
+Sun apparaît en double ;-;  
+mais au moins les mouvements et l'animation sont meilleurs :D  
