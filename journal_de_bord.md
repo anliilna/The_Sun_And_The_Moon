@@ -25,3 +25,12 @@ j'ai recommencé du début T~T
 24/10/2022:  
 Sun apparaît en double ;-;  
 mais au moins les mouvements et l'animation sont meilleurs :D  
+
+25/10/2022:  
+j'ai essayé de faire des niveaux mais c'est dur :(  
+
+26/10/2022:  
+RAS  
+
+27/10/2022:  
+j'ai ajouté un écran d'accueuil avec des bouttons start, option et quit.  
