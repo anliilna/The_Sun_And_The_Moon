@@ -33,4 +33,4 @@ j'ai essayé de faire des niveaux mais c'est dur :(
 RAS  
 
 27/10/2022:  
-j'ai ajouté un écran d'accueuil avec des bouttons start, option et quit.  
+j'ai ajouté un écran d'accueil avec des bouttons play, option et quit.  
