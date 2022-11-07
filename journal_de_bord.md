@@ -29,8 +29,10 @@ mais au moins les mouvements et l'animation sont meilleurs :D
 25/10/2022:  
 j'ai essayé de faire des niveaux mais c'est dur :(  
 
-26/10/2022:  
-RAS  
-
 27/10/2022:  
 j'ai ajouté un écran d'accueil avec des bouttons play, option et quit.  
+
+30/10/2022:  
+j'ai ajouté un boutton back dans le jeu pour retourner à l'écran d'accueil  
+
+le reste des jours j'ai essayé d'ajouter d'autres chose sans succès.
