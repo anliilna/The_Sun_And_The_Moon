@@ -1,10 +1,10 @@
-import pygame
+import pygame, random
 
 class Tile(pygame.sprite.Sprite):
     def __init__(self, pos, size):
         super().__init__()
-        self.image = pygame.Surface((size, size))
-        self.image.fill((200, 200, 200))
+        nbr = random.randint(0, 1)
+        self.image = pygame.image.load(f"tiles{nbr}.png")
         self.rect = self.image.get_rect(topleft=pos)
 
     def update(self, x_shift):

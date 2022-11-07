@@ -1,19 +1,30 @@
-level_map = [
-'                             ',
-'                             ',
-'                             ',
-'                             ',
-'                             ',
-' XX     XXX            XX    ',
-' XX P                        ',
-' XXXX          XX          XX',
-' XXXX        XX    XX  XX    ',
-' XX     X  XXXX    XX  XX    ',
-'        X  XXXX    XX  XXX   ',
-'     XXXX  XXXXXX  XX  XXXX  ',
-'     XXXX  XXXXXX  XX  XXXX  ',
-'     XXXX  XXXXXX  XX  XXXX  ']
+level_map0 = [
+'                        ',
+'                        ',
+'                      S ',
+'                     XXX',
+'                   XX   ',
+'                 XX     ',
+'               XX       ',
+'          WWWWW         ',
+'        XX              ',
+'      XX                ',
+'  M XX                  ',
+' XXX                    ']
+level_map1 = [
+'                        ',
+'                        ',
+'                      S ',
+'                     XXX',
+'       WWWWW       XX   ',
+'                 XX     ',
+'               XX       ',
+'                        ',
+'   XX                   ',
+'      XX                ',
+'  M XX                  ',
+' XXX                    ']
 
-tile_size = 40
+tile_size = 48
 screen_width = 1200
 screen_height = 600
