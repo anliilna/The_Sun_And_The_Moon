@@ -19,11 +19,11 @@ j'ai dessiné les mêmes images que Moon pour Sun et l'ai ajouté au programme (
 problème de vitesse réglé :D  
 mais si je fais marcher les deux personnage et que j'en fait arrêter un, les deux personnages s'arrêtent de marcher D:
 
-23/10/2022:  
-j'ai recommencé du début T~T  
+23/10/2022:
+j'ai trouvé un tuto qui pourrait m'aider donc j'ai recommencé du début  
 
 24/10/2022:  
-Sun apparaît en double ;-;  
+j'ai essayer d'afficher les 2 personnages mais Sun apparaît en double  
 mais au moins les mouvements et l'animation sont meilleurs :D  
 
 25/10/2022:  
