@@ -7,7 +7,8 @@ Pour ce projet je prévois d'ajouter:
 -de la musique et des sons  
 -des niveaux  
 
-Il y aura:  
--une classe pour Sun et Moon  
--des attibuts: position, hauteur, vitesse, sens, walk_left, walk_right, idle_left, idle_right, jump pour Sun et Moon  
--des méthodes: sauter, déplacer, gravité  
+Pour ce projet, j'ai suivi des tutos sur YouTube :  
+- https://youtube.com/playlist?list=PL8ui5HK3oSiGXM2Pc2DahNu1xXBf7WQh-  
+- https://youtu.be/GMBqjxcKogA  
+
+
