@@ -38,6 +38,6 @@ j'ai ajouté un boutton back dans le jeu pour retourner à l'écran d'accueil
 
 le reste des vacances j'ai essayé d'ajouter d'autres chose sans succès.  
 
-17/11/2022:
+17/11/2022:  
 j'ai ajouté un boutton options dans le jeu qui mène aux différents niveaux (qui n'existent pas encore)  
 !!!AJOUTER UN TUTO POUR LES TOUCHES!!!
