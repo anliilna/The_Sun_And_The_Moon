@@ -1,11 +1,11 @@
 import pygame
 
 class Player(pygame.sprite.Sprite):
-    ''' classe qui créé le premier personnage 'Sun', qui prend en compte ses images,
-    sa vitesse de déplacements, sa gravité et les touches qui définissent ses mouvements'''
+    """classe qui créé le premier personnage 'Sun', qui prend en compte ses images,
+    sa vitesse de déplacements, sa gravité et les touches qui définissent ses mouvements"""
     def __init__(self, pos):
         super().__init__()
-        # player animations
+        # images, vitesse par image
         self.frame_index = 0
         self.animation_speed = 0.15
         self.animations = {'idle': [pygame.image.load('Moon_idle0.png'),
@@ -24,7 +24,7 @@ class Player(pygame.sprite.Sprite):
         self.rect = self.image.get_rect(topleft=pos)
         self.status = 'idle'
 
-        # player movement
+        # movements
         self.sens = '0'
         self.saut = False
         self.fall = False
@@ -34,6 +34,7 @@ class Player(pygame.sprite.Sprite):
         self.jump_speed = -16
 
     def get_input(self):
+        """touches de déplacements"""
         keys = pygame.key.get_pressed()
 
         if keys[pygame.K_RIGHT]:
@@ -49,6 +50,7 @@ class Player(pygame.sprite.Sprite):
                 self.jump()
 
     def animate(self):
+        """fait l'animation en fonction de la direction du personnage (s'il regarde à gauche ou à droite)"""
         animation = self.animations[self.status]
 
         # loop over frame index
@@ -64,6 +66,7 @@ class Player(pygame.sprite.Sprite):
             self.image = flipped
 
     def get_status(self):
+        """définit si le joueur saute, tombe, marche ou reste immobile"""
         if self.direction.y > 1:
             self.status = 'fall'
         elif self.direction.y < 0:
@@ -76,10 +79,12 @@ class Player(pygame.sprite.Sprite):
             self.saut = False
 
     def apply_gravity(self):
+        """applique la gravité"""
         self.direction.y += self.gravity
         self.rect.y += self.direction.y
 
     def jump(self):
+        """fait sauter le personnage"""
         self.saut = True
         self.direction.y = self.jump_speed
 
