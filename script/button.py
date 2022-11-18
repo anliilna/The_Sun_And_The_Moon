@@ -1,4 +1,5 @@
 class Button():
+	"""classe Button qui créé un boutton qui est utilisé dans 'main.py' et 'start_window.py' pour les bouttons 'play', 'options', 'back' etc..."""
 	def __init__(self, image, pos, text_input, font, base_color, hovering_color):
 		self.image = image
 		self.x_pos = pos[0]
@@ -23,6 +24,7 @@ class Button():
 		return False
 
 	def changeColor(self, position):
+		"""change la couleur du boutton quand la souris le frôle"""
 		if position[0] in range(self.rect.left, self.rect.right) and position[1] in range(self.rect.top, self.rect.bottom):
 			self.text = self.font.render(self.text_input, True, self.hovering_color)
 		else:
