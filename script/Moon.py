@@ -1,6 +1,8 @@
 import pygame
 
 class Player(pygame.sprite.Sprite):
+    ''' classe qui créé le premier personnage 'Sun', qui prend en compte ses images,
+    sa vitesse de déplacements, sa gravité et les touches qui définissent ses mouvements'''
     def __init__(self, pos):
         super().__init__()
         # player animations
