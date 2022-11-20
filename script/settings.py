@@ -28,3 +28,4 @@ level_map1 = [
 tile_size = 48
 screen_width = 1200
 screen_height = 600
+level_map = level_map0

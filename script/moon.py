@@ -34,7 +34,7 @@ class Moon(pygame.sprite.Sprite):
         self.fall = False
         self.speed = 10
         self.direction = pygame.math.Vector2(0, 0)
-        self.gravity = 0.8
+        self.gravity = 1.5
         self.jump_speed = -16
 
     def sparkles_img(self):
