@@ -40,4 +40,9 @@ le reste des vacances j'ai essayé d'ajouter d'autres chose sans succès.
 
 17/11/2022:  
 j'ai ajouté un boutton options dans le jeu qui mène aux différents niveaux (qui n'existent pas encore)  
-!!!AJOUTER UN TUTO POUR LES TOUCHES!!!
+
+19/11/2022:  
+j'ai ajouté un tuto en tant que '1er niveau'  
+
+23/11/2022:  
+j'ai changé l'écran d'accueil (ajout d'une animation et changement du visuel du titre)  
