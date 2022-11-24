@@ -1,3 +1,5 @@
+"""interface des différents niveaux"""
+
 level_map0 = [
 '                        ',
 '                        ',
@@ -5,9 +7,9 @@ level_map0 = [
 '                     XXX',
 '                   XX   ',
 '                 XX     ',
-'               XX       ',
-'          WWWWW         ',
-'        XX              ',
+'              XXX       ',
+'           W            ',
+'        XXX             ',
 '      XX                ',
 '  M XX                  ',
 ' XXX                    ']
@@ -24,8 +26,20 @@ level_map1 = [
 '      XX                ',
 '  M XX                  ',
 ' XXX                    ']
+tuto = [
+'                        ',
+'                        ',
+'                        ',
+'                        ',
+'                        ',
+'                        ',
+'                        ',
+'                        ',
+'                        ',
+'                        ',
+'  S                  M ',
+' XXXXXXXXXXXXXXXXXXXXXX ']
 
 tile_size = 48
 screen_width = 1200
 screen_height = 600
-level_map = level_map0

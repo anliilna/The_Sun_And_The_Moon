@@ -1,19 +1,18 @@
 import pygame
-from tiles import Tile
-from settings import tile_size
-from moon import Moon
-from sun import Sun
+from tiles import Tile, Win
+from settings import *
+from players import Moon, Sun
 
 class Level():
+    """ prend les différents 'sprite' et les implémentes dans le jeu"""
     def __init__(self, level_data, surface):
         # level set up
         self.display_surface = surface
         self.setup_level(level_data)
-        self.world_shift = 0
 
     def setup_level(self, layout):
         self.tiles = pygame.sprite.Group()
-        self.win = pygame.sprite.GroupSingle()
+        self.win = pygame.sprite.Group()
         self.moon = pygame.sprite.GroupSingle()
         self.sun = pygame.sprite.GroupSingle()
         for row_index, row in enumerate(layout):
@@ -25,14 +24,18 @@ class Level():
                     tile = Tile((x, y), tile_size)
                     self.tiles.add(tile)
                 if cell == 'W':
-                    win = Tile((x, y), tile_size)
-                    self.tiles.add(win)
+                    win_sprite = Win((x, y), tile_size)
+                    self.tiles.add(win_sprite)
                 if cell == 'M':
                     moon_sprite = Moon((x, y), self.display_surface)
                     self.moon.add(moon_sprite)
                 if cell == 'S':
                     sun_sprite = Sun((x, y), self.display_surface)
                     self.sun.add(sun_sprite)
+
+    def win_collision(self):
+        if self.win.rect.colliderect(moon.rect) and self.win.rect.colliderect(sun.rect):
+            sys.exit()
 
     def horizontal_movement_collision_m(self):
         moon = self.moon.sprite
@@ -84,7 +87,6 @@ class Level():
 
     def run(self):
         # level tiles
-        self.tiles.update(self.world_shift)
         self.tiles.draw(self.display_surface)
 
         # players
