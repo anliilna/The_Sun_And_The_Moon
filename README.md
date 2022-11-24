@@ -6,7 +6,7 @@ Mon objectif final serai de faire au moins 3 niveaux avec des murs qu'un seul pe
 Je prévois d'ajouter:  
 -l'interface du jeu (personnages, obstacles, décor, animations)  
 -les mouvements des personnages  
--de la musique (que j'ai modifié en 8-bit avec GXSCC)
+-de la musique (que j'ai modifié en 8-bit avec GXSCC)  
 -des niveaux  
 
 classes et méthodes utilisées:  
