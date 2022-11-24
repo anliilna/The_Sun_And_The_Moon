@@ -1,7 +1,7 @@
 # When The Sun Loves The Moon
 Ce sera un jeu de plateforme fortement inspiré de Heart Star (un jeux vidéo) et "When The Sun Loves The Moon" (une chanson), où deux personnages Sun et Moon devront s'entre aider pour résoudre des niveaux (si j'arrive à en faire) et se réunir.  
 
-Mon objectif final serai de faire au moins 3 niveaux avec des murs qu'un seul personnage pourra traverser, de objets que les joueurs devront ramasser et des portails de téléportation.  
+Mon objectif final serai de faire au moins 3 niveaux avec des murs qu'un seul personnage pourra traverser, des objets que les joueurs devront ramasser et des portails de téléportation.  
 
 Je prévois d'ajouter:  
 -l'interface du jeu (personnages, obstacles, décor, animations)  
