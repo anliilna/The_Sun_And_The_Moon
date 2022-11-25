@@ -28,4 +28,4 @@ Pour ce projet, j'ai suivi des tutos sur YouTube :
 - https://youtube.com/playlist?list=PL8ui5HK3oSiGXM2Pc2DahNu1xXBf7WQh-  
 - https://youtu.be/GMBqjxcKogA  
 
-(Programmé en POO) 
+(Programmé en POO avec pygame sur Mu) 
