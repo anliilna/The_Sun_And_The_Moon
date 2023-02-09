@@ -48,4 +48,13 @@ j'ai ajouté un tuto en tant que '1er niveau'
 j'ai changé l'écran d'accueil (ajout d'une animation et changement du visuel du titre)  
 
 27/11/2022:  
-j'ai ajouté un version beta pour faire les différents niveaux
+j'ai ajouté un version beta pour faire les différents niveaux  
+
+Décembre:  
+changement des plateformes  
+
+Problèmes:  
+pas assez de stockage  
+
+Janvier:
+création d'un écran game over quand un joueur sort de l'écran
