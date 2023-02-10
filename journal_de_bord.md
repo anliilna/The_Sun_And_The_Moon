@@ -57,4 +57,9 @@ Problèmes:
 pas assez de stockage  
 
 Janvier:
-création d'un écran game over quand un joueur sort de l'écran
+création d'un écran game over quand un joueur sort de l'écran (animation et boutton retour à l'écran d'accueuil)  
+tous les niveaux sint dans le même fichier  
+
+Problèmes:  
+la fonction next_level() ne marche plus comme prévu    
+
