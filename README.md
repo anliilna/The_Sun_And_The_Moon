@@ -23,6 +23,8 @@ INTERFACE:
   -win_collision ( qui permet de finir un niveau mais ne marche pas encore)  
   -horizontal_movement_collision() et vertical_movement_collision() ( qui détecte quand les personnages entrent en collision avec un 'tile')  
   
+  PROCHAINES AMELIORATIONS:  
+  plus de niveaux, des blocks communs, des objets à ramasser, animation quand le joueur perd et quand il gagne  
 
 Pour ce projet, j'ai suivi des tutos sur YouTube :  
 - https://youtube.com/playlist?list=PL8ui5HK3oSiGXM2Pc2DahNu1xXBf7WQh-  
